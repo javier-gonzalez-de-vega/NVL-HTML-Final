@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Proyecto final</title>
+ </head>
+ <body>
+    <header class="site-header">
+        <nav class="navegacion">
+            <a href="#">Tarifas</a>
+            <a href="#">Donde estamos</a>
+            <a href="#">Opiniones</a>
+        </nav>
+        <div class="text-header">
+            <h2>¿Quienes somos?</h2>
+            <p>Nos gusta ver disfrutar a las mascotas, así comenzó nuestra idea al ver que muchas de ellas se quedaban en casa dutante la jornada laboral de su amo.</p>
+            <p>Además pensamos, ¿y si además de disfrutrar las educamos para que adquieran hábitos sanos?</p>
+            <p>Así nació Dog walk, pasión por las mascotas.</p>
+        </div>
+        <!--En CSS podría añadir un background-image, alinear le menu de navegacion y pener el texto debajo sobre la imagen y también añadir el logo de la empresa-->
+    </header>
+    <main class="site-main">
+        <h1>Nuestros servicios</h1>
+
+        <div class="pricing">
+            <ul>
+                <li>Paseamos a tu mascota</li>
+                <p>Precio: <span>15€/hora</span></p>
+
+                <li>Cuidamos de ella el finde</li>
+                <p>Precio: <span>100€</span></p>
+
+                <li>Si te vas por mucho tiempo no te preocupes, nosotros la cuidamos por ti</li>
+                <p>A consultar según el número de días</p>
+            </ul>
+        </div>
+
+        <div class="contacto">
+            <form action="post">
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+
+                    <div>
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" name="apellidos" id="apellidos">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div>
+                        <select name="servicio" id="servicio">
+                            <option value="servicio">Pasear tu mascota</option>
+                            <option value="servicio">Fin de semana</option>
+                            <option value="servicio">Periodo largo</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="comentarios">Comentarios</label>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="boton">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <nav class="navegacion">
+            <a href="#">Tarifas</a>
+            <a href="#">Donde estamos</a>
+            <a href="#">Opiniones</a>
+        </nav>
+    </footer>
+
+ </body>
+</html>
