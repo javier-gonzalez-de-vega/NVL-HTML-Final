@@ -1,0 +1,11 @@
+El documento se compone de 3 secciones fundamentales: header, main y footer.
+
+El header y footer contienen un menú de navegación para que el usuario pueda ir navegando entre las diferentes páginas de la web.
+
+En el main, se ha puesto los servicios fundamentales de la empresa con sus respectivas tarifas.
+
+También se ha puesto un formulario de contacto para que nos llegue información sobre posibles leads.
+
+Los estilos se aplican en un archivo CSS aparte, habría que relacionarlo mediante el <link> en el head del documento.
+
+las etiquetas principales tienen asociada una clase para poder aplicar estilos de manera más facil.
